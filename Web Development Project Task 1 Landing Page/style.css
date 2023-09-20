@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #header {
+    height: max-content;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    background-color: white;
+    padding: 1rem 0;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content-div {
+    max-width: 95rem;
+    width: auto;
+    margin: 0 auto;
+  }
+ 
+  #header-img {
+    height: 5rem;
+    width: auto;
+  }
+ 
+  nav {
+    position: relative;
+    top: 0.8rem;
+    float: right;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1.5rem 0;
+  }
+ 
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    padding: 0 0.6rem;
+    transition: border-bottom 0.2s;
+  }
+ 
+  .nav-link:hover {
+    color: rgb(255, 0, 0);
+    border-bottom: 2px solid #ff0000;
+  }
+  .nav-link:active {
+    color: rgb(255, 255, 255);
+  }
+  .flexible {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .home-sec {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 186, 12);
+    text-align: start;
+    min-height: 60rem;
+    height: auto;
+    margin: 0 auto 5rem auto;
+    justify-content: start;
+    max-width: 95rem;
+    color: #333;
+    background-repeat: no-repeat;
+  }
+ 
+  .eye-grabber {
+    flex: 2;
+    padding: 0 2rem;
+  }
+ 
+  .eye-grabber h1 {
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: black;
+  }
+  .eye-grabber h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: black;
+  }
+  .eye-grabber-img {
+    flex: 1;
+    height: 800px;
+    width: auto;
+  }
+ 
+  .eye-grabber-img img {
+    max-width: 100%;
+  }
+  .btn {
+    border: none;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    background-color: #fffb00;
+    color: black;
+    outline: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+  }
+  .btn:active {
+    transform: scale(0.9);
+  }
+  .section-heading {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    line-height: 1.2;
+    margin: 0;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+    color: red;
+  }
+  .sec-content-div {
+    font-size: 2rem;
+    text-align: start;
+    padding: 0 2rem 5rem 2rem;
+    width: auto;
+    justify-content: space-around;
+    max-width: 95rem;
+    margin: 0 auto;
+  }
+  .sec-padding {
+    padding: 100px;
+  }
+  #about {
+    background-color: #ffffff;
+  }
+  #about img {
+    max-width: 100%;
+    height: auto;
+    background-color: red;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+  }
+  #varieties {
+    background-color: #ffffff;
+  }
+  .tile {
+    background-color: #75ff6e;
+    height: 40rem;
+    width: 25rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+ 
+  .tile img {
+    width: 100%;
+    max-width: 48rem;
+    border-radius: 0.5rem;
+  }
+  .tile h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    color: #e23d3d;
+    margin: 0;
+  }
+  .tile p {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+  }
+  .tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+  }
+  #our-service {
+    background-color: #62fffa;
+  }
+  .bars {
+    height: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 2rem;
+    width: 100%;
+  }
+ 
+  .bars .icon-container {
+    max-width: 10rem;
+    flex: 1;
+  }
+  .icon-container img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .bars .txt-container {
+    flex: 2;
+    padding: 3rem;
+  }
+  .txt-container h5 {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  .txt-container p {
+    font-size: 2.3rem;
+  }
+  footer {
+    font-size: 1.4rem;
+    background-color: #000000;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    color: #fafafa;
+  }
+  footer a {
+    color: #e3e3e3;
+    text-decoration: none;
+  }
